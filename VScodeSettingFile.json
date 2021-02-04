@@ -1,0 +1,29 @@
+{
+    "workbench.editor.enablePreview": false,
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.ejs": "html",
+        // "*.js": "html",
+        "*.vue": "vue"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "eslint.enable": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+          "language": "vue",
+          "autoFix": true
+        },
+        "vue"
+      ],
+    "eslint.autoFixOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "window.zoomLevel": 0,
+}
